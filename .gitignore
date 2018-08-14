@@ -1,0 +1,15 @@
+/node_modules
+/bin
+/pkg
+/src
+/server/bindata.go
+/server/data/static/build
+/vendor
+
+.pid
+.DS_Store
+/.idea
+/.idea/*
+
+*.log
+*.iml

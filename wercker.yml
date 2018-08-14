@@ -1,0 +1,19 @@
+box: toscale/golang-node:latest
+build:
+  steps:
+    - setup-go-workspace
+    - nicka/yarn@2.0.2
+    - script:
+        name: install
+        code: |
+          go version
+          go get github.com/golang/dep/cmd/dep
+          go get -u github.com/jteeuwen/go-bindata/...
+          dep ensure
+          go get github.com/olebedev/on
+          ls -la $GOPATH/bin
+    - script:
+        name: build
+        code: |
+          make build
+          ls -la $GOPATH/bin

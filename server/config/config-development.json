@@ -1,0 +1,12 @@
+{
+  "debug": true,
+  "commit": 0,
+  "port": 5000,
+  "title": "Gin React Starter Kit",
+  "api": {
+    "prefix": "/api"
+  },
+  "duktape": {
+    "path": "static/build/bundle.js"
+  }
+}
