@@ -128,11 +128,17 @@ that's it. Open [http://localhost:5001/](http://localhost:5001/)(if you use defa
 
 Install dependencies and type `ENV=production make build`. This rule is producing webpack build and regular golang build after that. Result you can find at `$GOPATH/bin`. Note that the binary will be named **as the current project directory**.
 
-## RUN IN PRODUCTION
+## Run in production
 - cd $GOPATH/src/<project>
 - Run: ENV=production $GOPATH/bin/<project> run
 
 Open [http://localhost:5000/](http://localhost:5000/) 
+
+## To do
+- [] Configure docker
+- [] Update more components to front end react
+- [] Redux integration
+- [] Sagas integration
 
 ## License
 MIT
