@@ -1,4 +1,4 @@
-# gin-react-starter-kit [![wercker status](https://app.wercker.com/status/cc4ddd2e2fec29ad988115a8b20b830a/s/master "wercker status")](https://app.wercker.com/project/byKey/cc4ddd2e2fec29ad988115a8b20b830a)
+# gin-react-starter-kit [![wercker status](https://app.wercker.com/status/9a89452d2dffe93d18383013e85c8566/s/master "wercker status")](https://app.wercker.com/project/byKey/9a89452d2dffe93d18383013e85c8566)
 
 > This project was inspired by olebedev's [golang-starter-kit](https://github.com/olebedev/go-starter-kit) and improve some features which can bootstrap SPA web quickly and efficiently based on **Facebook React** and **Gin Golang Server side framework**.
 
