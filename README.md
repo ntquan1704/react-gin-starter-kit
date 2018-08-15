@@ -134,11 +134,15 @@ Install dependencies and type `ENV=production make build`. This rule is producin
 
 Open [http://localhost:5000/](http://localhost:5000/) 
 
+## How to build docker
+- docker build -t <project-image>:<version-tag> .
+- docker run -it -p 5000:5000 --name <project-container> <project-image>:<version-tag>
+
 ## To do
-- [] Configure docker
-- [] Update more components to front end react
-- [] Redux integration
-- [] Sagas integration
+[x] Configure docker
+[] Update more components to front end react
+[] Redux integration
+[] Sagas integration
 
 ## License
 MIT
