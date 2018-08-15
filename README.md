@@ -129,20 +129,29 @@ that's it. Open [http://localhost:5001/](http://localhost:5001/)(if you use defa
 Install dependencies and type `ENV=production make build`. This rule is producing webpack build and regular golang build after that. Result you can find at `$GOPATH/bin`. Note that the binary will be named **as the current project directory**.
 
 ## Run in production
-- cd $GOPATH/src/<project>
-- Run: ENV=production $GOPATH/bin/<project> run
+```
+cd $GOPATH/src/<project>
+```
+Run: 
+```
+ENV=production $GOPATH/bin/<project> run
+```
 
 Open [http://localhost:5000/](http://localhost:5000/) 
 
 ## How to build docker
-- docker build -t <project-image>:<version-tag> .
-- docker run -it -p 5000:5000 --name <project-container> <project-image>:<version-tag>
+```
+    docker build -t <project>:<version> .
+```
+```
+    docker run -it -p 5000:5000 --name <container> <project>:<version>
+```
 
 ## To do
-[x] Configure docker
-[] Update more components to front end react
-[] Redux integration
-[] Sagas integration
+- [x] Configure docker
+- [ ] Update more components to front end react
+- [ ] Redux integration
+- [ ] Sagas integration
 
 ## License
 MIT
